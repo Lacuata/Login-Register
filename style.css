@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   background-color: #212529;
+}
+
+.container{
+    max-width: 100%;
+    /* border: 5px solid #212529; */
+    background-color: rgb(253, 248, 248);
+    border-radius: 5px;
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+.container a{
+    text-decoration: none;
+    color: #fff;
+}
+.mb-3{
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    /* border: 10px solid #555b62; */
+}
+
+.col-md-3{
+    padding: 10px 2px;
+    display: inline;
+}
+.col-md-3 input{
+    width: 150px;
+    padding: 5px;
+    /* border: 2px solid green; */
+    border-radius: 5px;
+    margin: 10px 2px;
+
+}
+.col-md-6{
+    /* border: 2px solid red; */
+margin: 0 auto;
+
+}
+.col-md-6 input{
+width: 310px;
+border-radius: 5px;
+margin: 20px;
+padding: 5px;
+/* border: 2px solid green; */
+}
+.col-md-6 p{
+    position: relative;
+left: 110px;    
+bottom: 50px;
+/* border: 1px solid red; */
+}
+
+.col-md-3 #password, #confirm{
+    position: relative;
+    bottom: 50px;
+    margin-top: 10px;
+    /* border: 2px solid red; */
+}
+
+
+footer{
+    /* border: 3px solid green; */
+    text-align: center;
+    background-color: #212529;
+    padding-bottom: 50px;
+
+}
+footer p{
+    display: inline-block;
+    color: #fff;
+    /* border: 3px solid orange; */
+    padding: 10px;
+    margin: 35px;
+}
+
